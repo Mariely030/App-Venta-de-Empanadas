@@ -1,0 +1,12 @@
+/Users/rossemmp/SVE/IOC/SVE.IOC/bin/Debug/net8.0/SV.IOC.deps.json
+/Users/rossemmp/SVE/IOC/SVE.IOC/bin/Debug/net8.0/SV.IOC.dll
+/Users/rossemmp/SVE/IOC/SVE.IOC/bin/Debug/net8.0/SV.IOC.pdb
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.AssemblyInfoInputs.cache
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.AssemblyInfo.cs
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.csproj.CoreCompileInputs.cache
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.sourcelink.json
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.dll
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/refint/SV.IOC.dll
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/SV.IOC.pdb
+/Users/rossemmp/SVE/IOC/SVE.IOC/obj/Debug/net8.0/ref/SV.IOC.dll

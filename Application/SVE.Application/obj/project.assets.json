@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SVE.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SVE.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SVE.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SVE.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/SVE.Domain/SVE.Domain.csproj",
+      "msbuildProject": "../../Core/SVE.Domain/SVE.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SVE.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/rossemmp/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/rossemmp/SVE/Application/SVE.Application/SVE.Application.csproj",
+      "projectName": "SVE.Application",
+      "projectPath": "/Users/rossemmp/SVE/Application/SVE.Application/SVE.Application.csproj",
+      "packagesPath": "/Users/rossemmp/.nuget/packages/",
+      "outputPath": "/Users/rossemmp/SVE/Application/SVE.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/rossemmp/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/rossemmp/SVE/Core/SVE.Domain/SVE.Domain.csproj": {
+              "projectPath": "/Users/rossemmp/SVE/Core/SVE.Domain/SVE.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

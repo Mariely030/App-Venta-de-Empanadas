@@ -1,5 +1,5 @@
 using SVE.Domain.Repository;
-using SVE.Domain.Entitines.Configuration;
+using SVE.Domain.Entities.Configuration;
 
 namespace SVE.Application.Repositories
 {

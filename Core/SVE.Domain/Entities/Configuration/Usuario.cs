@@ -1,11 +1,13 @@
-namespace SVE.Domain.Base
+using SVE.Domain.Base;
+
+namespace SVE.Domain.Entities.Configuration
 {
 
     public class Usuario : BaseEntity
     {
 
-        public string Nombre { get; set; }
-        public string Correo { get; set; }
-        public string Rol { get; set; }
+        public string Nombre { get; set; } = null!;
+        public string Correo { get; set; } = null!;
+        public string Rol { get; set; } = null!;
     }
 }

@@ -2,6 +2,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\SVE.Domain\SVE.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SVE.Infrastructure\SVE.Persistence\SVE.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SVE.Infrastructure\SVE.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.4.0" />
   </ItemGroup>
 
   <PropertyGroup>

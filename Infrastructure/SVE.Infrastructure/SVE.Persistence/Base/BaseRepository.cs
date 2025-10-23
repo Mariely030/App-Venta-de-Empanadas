@@ -1,10 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using SVE.Domain.Repository;
 using SVE.Persistence.Context;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace SVE.Persistence.Base
+namespace SVE.Infrastructure.SVE.Persistence.Base
 {
 
     public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
@@ -20,7 +18,7 @@ namespace SVE.Persistence.Base
             _dbSet = _context.Set<TEntity>();
         }
 
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity?> GetByIdAsync(int id)
         {
 
             return await _dbSet.FindAsync(id);
@@ -32,7 +30,7 @@ namespace SVE.Persistence.Base
             return await _dbSet.ToListAsync();
         }
 
-        public async Task Addsync(TEntity entity)
+        public async Task AddAsync(TEntity entity)
         {
 
             await _dbSet.AddAsync(entity);

@@ -1,6 +1,0 @@
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.AssemblyInfoInputs.cache
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.AssemblyInfo.cs
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.csproj.CoreCompileInputs.cache
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.sourcelink.json
-/Users/rossemmp/SVE/Infrastructure/SVE.Infrastructure/obj/Debug/net8.0/SVE.Infrastructure.csproj.AssemblyReference.cache

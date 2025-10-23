@@ -1,9 +1,18 @@
+
+using SVE.IOC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddUsuarioDependencies();
+builder.Services.AddPedidoDependencies();
+builder.Services.AddDetallePedidoDependencies();
+builder.Services.AddProductoDependencies();
+builder.Services.AddPromocionDependencies();
 
 var app = builder.Build();
 

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using SVE.Domain.Entities;
+using SVE.Domain.Entities.Configuration;
 
 namespace SVE.Persistence.Context
 {
